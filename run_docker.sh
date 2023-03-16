@@ -1,5 +1,5 @@
 cd app
 
-docker build --tag=sourabhv/capstone .
+docker build --tag=sourabhvverma/capstone .
 
 docker image ls

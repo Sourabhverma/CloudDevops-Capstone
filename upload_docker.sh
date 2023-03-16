@@ -2,10 +2,10 @@
 #!/usr/bin/env bash
 
 # docker path
-dockerpath=sourabhv/capstone
+dockerpath=sourabhvverma/capstone
 
 echo "Docker ID and Image: $dockerpath"
 
-docker tag sourabhv/capstone sourabhv/capstone:v1
+docker tag sourabhvverma/capstone sourabhvverma/capstone:v1
 
-docker push sourabhv/capstone:v1
+docker push sourabhvverma/capstone:v1

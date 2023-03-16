@@ -37,7 +37,7 @@ spec:
             topologyKey: "kubernetes.io/hostname"
       containers:
       - name: capstone
-        image: sourabhv/capstone:v1
+        image: sourabhvverma/capstone:v1
         command: [
           "/bin/bash", 
           "run_docker.sh"

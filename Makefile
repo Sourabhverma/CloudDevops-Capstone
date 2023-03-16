@@ -17,6 +17,6 @@ upload:
 	sh ./upload_docker.sh
 
 build:
-	docker build --build-arg APP_PORT=5000 --tag=sourabhv/capstone .
+	docker build --build-arg APP_PORT=5000 --tag=sourabhvverma/capstone .
 
 all: install lint
