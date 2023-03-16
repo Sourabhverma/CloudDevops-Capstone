@@ -33,7 +33,7 @@ pipeline {
         
         stage('Pushing Docker Image') {
             steps {
-                withDockerRegistry([url: "", credentialsId: "docker-id"]) {
+                withDockerRegistry([url: "https://hub.docker.com/repository/docker/sourabhvverma/capstone/general", credentialsId: "docker-id"]) {
                     sh 'bash upload_docker.sh'
                 }
             }
@@ -44,7 +44,7 @@ pipeline {
                   echo 'Deploying to AWS EKS ....'
                   withAWS(credentials: 'aws-id', region: 'ap-south-1') {
                       sh "aws eks --region ap-south-1 update-kubeconfig --name capstone"
-                      sh "kubectl config use-context arn:aws:eks:ap-south-1:936344068960:cluster/capstone"
+                      sh "kubectl config use-context arn:aws:eks:ap-south-1:109507610381:cluster/capstone"
                       sh "kubectl apply -f ./clusters/deploy.yaml"
                       
                 }
