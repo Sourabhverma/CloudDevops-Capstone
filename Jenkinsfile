@@ -33,7 +33,7 @@ pipeline {
         
         stage('Pushing Docker Image') {
             steps {
-                withDockerRegistry([url: "https://hub.docker.com/repository/docker/sourabhvverma/capstone/general", credentialsId: "docker-id"]) {
+                withDockerRegistry([url: "", credentialsId: "docker-id"]) {
                     sh 'bash upload_docker.sh'
                 }
             }
