@@ -1,4 +1,3 @@
-cd app
 
 docker build --tag=sourabhvverma/capstone .
 
