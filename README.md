@@ -2,6 +2,9 @@
 
 Github repository : https://github.com/Sourabhverma/CloudDevops-Capstone
 
+URL : https://d4e48d4c9414b2be146153ff5dc31605.gr7.ap-south-1.eks.amazonaws.com/
+
+
 ### Project overview
 
 - Working in AWS
