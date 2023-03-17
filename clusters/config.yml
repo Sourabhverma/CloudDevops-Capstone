@@ -8,6 +8,6 @@ metadata:
 nodeGroups:
   - name: node-group-1 
     instanceType: t2.medium
-    desiredCapacity: 3
+    desiredCapacity: 2
     ssh:
       allow: false
