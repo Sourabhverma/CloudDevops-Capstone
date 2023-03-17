@@ -1,5 +1,4 @@
-# syntax=something
-FROM python:3.7.3-stretch
+FROM python
 
 ## Step 1:
 # Create a working directory
