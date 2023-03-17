@@ -1,4 +1,5 @@
 FROM python
+RUN
 
 ## Step 1:
 # Create a working directory
